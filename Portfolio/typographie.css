@@ -1,0 +1,56 @@
+@font-face {
+'Pilowlava';
+'sporting gtotesque';
+'Helvetica neue'
+}
+
+body {
+    background-color: #0F0F0F;
+}
+
+h1 {
+    font-family: Pilowlava;
+    color: #FF4E00;
+    font-size: 40px;
+}
+h2{
+    font-family: "Sporting Grotesque";
+    color: #FF4E00;
+    font-size: 60px;
+    margin-top: 550px;
+    margin-left: 30px;
+}
+p{
+    font-family: "Helvetica Neue";
+    color: ivory;
+    max-width: 700px;
+    min-width: 380px;
+    max-font-size: 16px;
+    min-font-size: 12px;
+}
+
+.nav li a{
+    list-style: none;
+    font-family: "Sporting Grotesque";
+    text-decoration: none;
+    color: #FF4E00;
+}
+.footerp {
+    color: #0F0F0F;
+    font-family: "Sporting Grotesque";
+}
+
+.footerh{
+    color: #0F0F0F;
+    font-family: "Sporting Grotesque";
+    font-weight: bold;
+    font-size: 20px;
+}
+HR {
+    size: 6px;
+}
+.navfooter {
+    color: #0F0F0F;
+    font-family: "Sporting Grotesque";
+    list-style: none;
+}

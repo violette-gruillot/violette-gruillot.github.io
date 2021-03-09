@@ -1,0 +1,88 @@
+.imgpc {
+    display: block;
+}
+
+.imgmobile {
+    display: none;
+}
+
+footer {
+    background-color: #F4F2F0;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+
+}
+.footertop{
+    grid-column: span 2;
+    border-bottom: 5px solid black;
+}
+.footerleft {
+    grid-column: 1;
+    border-right: 5px solid black;
+}
+
+.footerright{
+    grid-column: 2;
+
+}
+
+.icone {
+    display: flex;
+}
+footer .footerleft .icone a, .footerp, .footerh {
+    padding-left: 1.2em;
+}
+
+
+video {
+    height: 300px;
+    width: 900px;
+}
+
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+
+    position: fixed;
+    width: 100vh;
+    bottom: 0;
+    right: 2em;
+    line-height: 2em;
+    transform: rotate(90deg);
+    transform-origin: 100% 100%;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+#bordureimg{
+    border-left:3px solid #FF4E00;
+    padding-right: 2px;
+}
+
+
+body {
+    background-image: url("VGportfolio/essaiedot2.png");
+}
+
+img{
+    display: flex;
+    max-height: none;
+    min-height : 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .imgpc {
+        display: none;
+    }
+    .imgmobile {
+        display: block;
+    }
+}
